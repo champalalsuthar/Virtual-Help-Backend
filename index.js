@@ -13,7 +13,7 @@ app.use(cookieParser());
 
 app.use(express.json({ limit: '100mb' }));
 app.use(cors({
-    origin: ['https://cuh-virtualhelp.vercel.app'],
+    origin: ['https://cuhvirtualhelp.vercel.app'],
     credentials: true,
     sameSite: 'none'
 }));
